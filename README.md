@@ -11,8 +11,9 @@ brew tap smnhffmnn/tap
 brew install mux                # CLI only
 brew install --cask mux         # Desktop app (installs to /Applications)
 
-# vox (coming soon)
-brew install vox
+# vox (namespace conflict with existing "vox" package — use full tap path)
+brew install smnhffmnn/tap/vox          # CLI only
+brew install --cask smnhffmnn/tap/vox   # Desktop app (installs to /Applications)
 ```
 
 ## macOS Gatekeeper
@@ -29,4 +30,4 @@ xattr -cr /Applications/vox.app
 | Name | Type | Description |
 |------|------|-------------|
 | [mux](https://github.com/smnhffmnn/mux) | Formula + Cask | Single-binary MCP gateway for databases, APIs, and tunnels |
-| [vox](https://github.com/smnhffmnn/vox) | Formula (soon) | Speech-to-text dictation tool with context-aware cleanup |
+| [vox](https://github.com/smnhffmnn/vox) | Formula + Cask | Speech-to-text dictation tool with context-aware cleanup |
