@@ -1,14 +1,14 @@
 class Mux < Formula
   desc "Single-binary MCP gateway for databases, APIs, and tunnels"
   homepage "https://github.com/smnhffmnn/mux"
-  version "0.31.0"
+  version "0.31.1"
   license "MIT"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/smnhffmnn/mux/releases/download/v0.31.0/mux_0.31.0_darwin_arm64.tar.gz"
-  sha256 "dee1af8d9c9efe6c3940500628657709d9435238fc1b30263462d8c99e765a42"
+  url "https://github.com/smnhffmnn/mux/releases/download/v0.31.1/mux_0.31.1_darwin_arm64.tar.gz"
+  sha256 "25246d59fefc3a533dfa44b5b765319461ec966658dc45753f37fc5f806594ba"
 
   def install
     bin.install "mux"
