@@ -1,8 +1,8 @@
 cask "mux" do
-  version "0.39.1"
-  sha256 "956008e7e5788fad6a4df5947771454665251543f7a91dc396e1ad2e1774bf08"
+  version "0.40.0"
+  sha256 "480a1f7d6d25562fda36d10d2c94e677b861f77e679c19ea15b6074f533cee5e"
 
-  url "https://github.com/smnhffmnn/mux/releases/download/v0.39.1/mux_0.39.1_darwin_arm64_app.tar.gz"
+  url "https://github.com/smnhffmnn/mux/releases/download/v0.40.0/mux_0.40.0_darwin_arm64_app.tar.gz"
   name "mux"
   desc "Single-binary MCP gateway for databases, APIs, and tunnels"
   homepage "https://github.com/smnhffmnn/mux"
