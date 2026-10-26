@@ -1,8 +1,8 @@
 cask "vox" do
-  version "0.7.0"
-  sha256 "556cd5d3cf6454f7a15831ce490630a723f04900735ca10237a2f9d9f0a2e218"
+  version "0.8.0"
+  sha256 "93701e2c64991068f40434dda514bf9604602b99f2498ee1ff44812e0c360441"
 
-  url "https://github.com/smnhffmnn/vox/releases/download/v0.7.0/vox_0.7.0_darwin_arm64_app.tar.gz"
+  url "https://github.com/smnhffmnn/vox/releases/download/v0.8.0/vox_0.8.0_darwin_arm64_app.tar.gz"
   name "Vox"
   desc "Cross-platform speech-to-text dictation tool"
   homepage "https://github.com/smnhffmnn/vox"

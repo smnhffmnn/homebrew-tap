@@ -1,14 +1,14 @@
 class Vox < Formula
   desc "Cross-platform speech-to-text dictation tool"
   homepage "https://github.com/smnhffmnn/vox"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/smnhffmnn/vox/releases/download/v0.7.0/vox_0.7.0_darwin_arm64.tar.gz"
-  sha256 "3d4b3369d45b577a5243ae89777a8f030960680f10f446b5e98e9f1da1e79a7a"
+  url "https://github.com/smnhffmnn/vox/releases/download/v0.8.0/vox_0.8.0_darwin_arm64.tar.gz"
+  sha256 "8f1d625338f364d1975b0ac6ea936c04f2f4476313a12ea489322d43437a6a3d"
 
   def install
     bin.install "vox"
